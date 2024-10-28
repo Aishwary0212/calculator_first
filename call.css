@@ -51,8 +51,10 @@ html, body{
     background: #cdd900;
 }
 @media(max-width:768px){
-    #calculator{
+   #calculator{
+        left:30%;
         padding: 20px;
+        margin
         width: 50%;
         top: 5%;
     }
