@@ -50,3 +50,21 @@ html, body{
     transform: scale(1.1);
     background: #cdd900;
 }
+@media(max-width:798px){
+    #calculator{
+        padding: 20px;
+        width: 90%;
+        top: 5%;
+    }
+    #mypara{
+        font-size: 1.2em;
+        padding: 8px;
+    
+    }
+    .but{
+        height: 45px;
+        width: 45px;
+        margin: 3px;
+        font-size: 1em;
+    }
+}
