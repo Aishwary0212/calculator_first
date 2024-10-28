@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="call.css">
+</head>
+<body>
+    <div id="calculator">
+        <p id="mypara"></p>
+        <br>
+        <!--buttons for calculators #ishwary-->
+        <button class="but" onclick="number+='(';changetext()">(</button>
+        <button class="but" onclick="number+=')';changetext()">)</button>
+        <button  class="but" onclick="number=number.substring(0,number.length-1); changetext()">&#x22B2 </button>
+        <br>
+        <button class="but" onclick="number+='1'; changetext()">1</button>
+        <button class="but" onclick="number+='2'; changetext()">2</button>
+        <button class="but" onclick="number+='3'; changetext()">3</button>
+        <br>
+        <button class="but" onclick="number+='4'; changetext()">4</button>
+        <button class="but" onclick="number+='5'; changetext()">5</button>
+        <button class="but" onclick="number+='6'; changetext()">6</button>
+        <br>
+        <button class="but" onclick="number+='7'; changetext()">7</button>
+        <button class="but" onclick="number+='8'; changetext()">8</button>
+        <button class="but" onclick="number+='9'; changetext()">9</button>
+        <br>
+        <button class="but" onclick="number+='0'; changetext()">0</button>
+        <br>
+        <button class="but" onclick="number+='+'; changetext()">+</button>
+        <button class="but" onclick="number+='-'; changetext()">-</button>
+        <button class="but" onclick="number+='*'; changetext()">*</button>
+        <br>
+        <button class="but" onclick="number+='/'; changetext()">/</button>
+        <button class="but" onclick="number=eval(number); changetext()">=</button>
+        <button class="but" onclick="number=''; changetext()"><b>C</b></button>
+        <!-- buttons ended here #aishwary -->
+    </div>
+
+    <!-- Scripting -->
+    <script>
+        let number='';
+        function changetext(){
+            var element = document.getElementById("mypara");
+            element.innerHTML = `${number}`;
+        }
+    </script>
+    <!--scripting ended-->
+</body>
+</html>
