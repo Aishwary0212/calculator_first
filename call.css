@@ -9,15 +9,17 @@ html, body{
 }
 #calculator {
     border: 5px solid #ffffff; 
-    padding: 50px;
+    padding: 30px;
     position: absolute;
     left: 40%;
     top: 10%; 
     border-radius: 25px; 
     background-color: #282323; 
+    transform: translateX(-50%);
+    max-width: 100%;
+
 }
 #mypara{
-    border: 50px;
     border-color: black;
     color: #fff;
     min-height: 1.5em;
@@ -27,6 +29,7 @@ html, body{
     text-align: right;
     padding-right: 10px;
     padding-top: 5px;
+    width: 100%;
 
 }
 .but {
