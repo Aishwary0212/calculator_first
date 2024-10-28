@@ -50,7 +50,7 @@ html, body{
     transform: scale(1.1);
     background: #cdd900;
 }
-@media(max-width:798px){
+@media(max-width:768px){
     #calculator{
         padding: 20px;
         width: 90%;
