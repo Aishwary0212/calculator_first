@@ -10,32 +10,34 @@
     <div id="calculator">
         <p id="mypara"></p>
         <br>
-        <!--buttons for calculators #ishwary-->
-        <button class="but" onclick="number+='(';changetext()">(</button>
-        <button class="but" onclick="number+=')';changetext()">)</button>
+        <!--buttons for calculators #aishwary-->
+        <button class="but2" onclick="number=''; changetext()">
+            <b>C</b>
+        </button>
+
+        <button class="but" onclick="number+='/'; changetext()">/</button>
+        <button class="but" onclick="number+='*'; changetext()">*</button>
         <button  class="but" onclick="number=number.substring(0,number.length-1); changetext()">&#x22B2 </button>
-        <br>
-        <button class="but" onclick="number+='1'; changetext()">1</button>
-        <button class="but" onclick="number+='2'; changetext()">2</button>
-        <button class="but" onclick="number+='3'; changetext()">3</button>
-        <br>
-        <button class="but" onclick="number+='4'; changetext()">4</button>
-        <button class="but" onclick="number+='5'; changetext()">5</button>
-        <button class="but" onclick="number+='6'; changetext()">6</button>
         <br>
         <button class="but" onclick="number+='7'; changetext()">7</button>
         <button class="but" onclick="number+='8'; changetext()">8</button>
         <button class="but" onclick="number+='9'; changetext()">9</button>
-        <br>
-        <button class="but" onclick="number+='0'; changetext()">0</button>
-        <br>
-        <button class="but" onclick="number+='+'; changetext()">+</button>
         <button class="but" onclick="number+='-'; changetext()">-</button>
-        <button class="but" onclick="number+='*'; changetext()">*</button>
         <br>
-        <button class="but" onclick="number+='/'; changetext()">/</button>
-        <button class="but" onclick="number=eval(number); changetext()">=</button>
-        <button class="but" onclick="number=''; changetext()"><b>C</b></button>
+        <button class="but" onclick="number+='4'; changetext()">4</button>
+        <button class="but" onclick="number+='5'; changetext()">5</button>
+        <button class="but" onclick="number+='6'; changetext()">6</button>
+        <button class="but" onclick="number+='+'; changetext()">+</button>
+        <br>
+        <button class="but" onclick="number+='1'; changetext()">1</button>
+        <button class="but" onclick="number+='2'; changetext()">2</button>
+        <button class="but" onclick="number+='3'; changetext()">3</button>
+        <button class="but" onclick="number+='.'; changetext()">.</button>
+        <br>
+        <button class="but" onclick="number+='(';changetext()">(</button>
+        <button class="but" onclick="number+='0'; changetext()">0</button>
+        <button class="but" onclick="number+=')';changetext()">)</button>
+        <button class="but2" onclick="number=eval(number); changetext()">=</button>
         <!-- buttons ended here #aishwary -->
     </div>
 
