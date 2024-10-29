@@ -76,7 +76,7 @@ html, body{
 @media(max-width:768px){
     #calculator{
         padding: 20px;
-        width: 50%;
+        width: 55%;
         top: 5%;
     }
     #mypara{
