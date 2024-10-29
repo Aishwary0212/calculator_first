@@ -29,6 +29,7 @@ html, body{
     padding-top: 5px;
 
 }
+
 .but {
     background: #eaff00;
     color: #000;
@@ -44,17 +45,37 @@ html, body{
     cursor: pointer;
     outline: none;
     transition: background 0.3s;
+    font-weight: bold;
+}
+.but2 {
+    background: #f68a06;
+    color: #000;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    transition: background 0.3s;
 }
 
 .but:hover {
     transform: scale(1.1);
     background: #cdd900;
 }
+.but2:hover {
+    transform: scale(1.1);
+    background: #b96804;
+}
 @media(max-width:768px){
-   #calculator{
-        left:30%;
+    #calculator{
         padding: 20px;
-        margin
         width: 50%;
         top: 5%;
     }
@@ -63,7 +84,7 @@ html, body{
         padding: 8px;
     
     }
-    .but{
+    .but,.but2{
         height: 45px;
         width: 45px;
         margin: 3px;
