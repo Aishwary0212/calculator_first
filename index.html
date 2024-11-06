@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="call.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
     <div id="calculator">
@@ -17,7 +18,7 @@
 
         <button class="but" onclick="number+='/'; changetext()">/</button>
         <button class="but" onclick="number+='*'; changetext()">*</button>
-        <button  class="but" onclick="number=number.substring(0,number.length-1); changetext()">&#x22B2 </button>
+        <button  class="but" onclick="number=number.substring(0,number.length-1); changetext()"><i class="ri-delete-back-2-line"></i></button>
         <br>
         <button class="but" onclick="number+='7'; changetext()">7</button>
         <button class="but" onclick="number+='8'; changetext()">8</button>
